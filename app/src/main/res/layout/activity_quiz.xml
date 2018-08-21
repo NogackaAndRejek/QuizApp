@@ -61,6 +61,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:text="@string/sample_answer_d"
                 android:textSize="26dp"
                 android:layout_weight="1"/>
 
