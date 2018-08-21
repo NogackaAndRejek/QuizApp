@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="sample_question">Który z języków programowania jest najstarszy?</string>
+</resources>
