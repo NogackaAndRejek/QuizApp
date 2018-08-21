@@ -7,16 +7,26 @@
     tools:context=".QuizActivity"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:clickable="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample_question_image" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:maxLines="2"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
         android:text="@string/sample_question"
-        android:textSize="28dp"
+        android:textIsSelectable="false"
+        android:textSize="22dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        android:maxLines="2"/>
+        tools:layout_editor_absoluteY="0dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,14 +44,16 @@
                 android:layout_height="match_parent"
                 android:text="@string/sample_answer_a"
                 android:textSize="26dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:layout_margin="15dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/sample_answer_b"
                 android:textSize="26dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:layout_margin="15dp"/>
 
         </LinearLayout>
 
@@ -56,14 +68,16 @@
                 android:layout_height="match_parent"
                 android:text="@string/sample_answer_c"
                 android:textSize="26dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:layout_margin="15dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/sample_answer_d"
                 android:textSize="26dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:layout_margin="15dp"/>
 
         </LinearLayout>
 
