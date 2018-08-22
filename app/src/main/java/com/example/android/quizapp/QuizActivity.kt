@@ -15,5 +15,6 @@ class QuizActivity : AppCompatActivity() {
         super.onResume()
 
         Toast.makeText(applicationContext,"Cheking connection with Github", Toast.LENGTH_SHORT).show()
+        //Comment
     }
 }
