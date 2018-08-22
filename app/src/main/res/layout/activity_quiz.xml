@@ -7,7 +7,7 @@
     tools:context=".QuizActivity"
     android:orientation="vertical">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal">
@@ -18,12 +18,30 @@
             android:text="16/20"
             android:textSize="30sp"
             android:gravity="center_vertical"
-            android:layout_margin="5dp"/>
+            android:layout_marginHorizontal="10dp"
+            android:layout_alignParentLeft="true"/>
 
-    </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_alarm_24px"
+            android:layout_toLeftOf="@id/timer"
+            android:layout_marginHorizontal="5dp"/>
+
+        <Chronometer
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:textSize="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="10dp"/>
+
+    </RelativeLayout>
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="130dp"
         android:clickable="false"
         android:cropToPadding="false"
@@ -41,7 +59,8 @@
         android:textIsSelectable="false"
         android:textSize="22sp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_weight=""/>
 
     <LinearLayout
         android:layout_width="match_parent"
