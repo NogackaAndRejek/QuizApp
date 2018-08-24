@@ -16,5 +16,7 @@ class QuizActivity : AppCompatActivity() {
 
         Toast.makeText(applicationContext,"Cheking connection with Github", Toast.LENGTH_SHORT).show()
         //Comment
+
+        //Connect with GutHub by Linux sys. Próbny commit
     }
 }
