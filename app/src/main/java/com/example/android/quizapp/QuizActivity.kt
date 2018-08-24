@@ -15,10 +15,4 @@ class QuizActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
     }
-
-    override fun onResume(){
-        super.onResume()
-
-        Toast.makeText(this, "Cheking connection with Github", Toast.LENGTH_SHORT).show()
-    }
 }
