@@ -5,4 +5,9 @@
     <string name="sample_answer_b">Python</string>
     <string name="sample_answer_c">C++</string>
     <string name="sample_answer_d">Java</string>
+
+    <string name="name_menu_hint">Podaj swoje imię</string>
+    <string name="menu_start_button">Graj!</string>
+    <string name="menu_ranking_button">Ranking</string>
+
 </resources>
