@@ -59,8 +59,7 @@
         android:textIsSelectable="false"
         android:textSize="22sp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        android:layout_weight=""/>
+        tools:layout_editor_absoluteY="0dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
