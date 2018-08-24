@@ -70,7 +70,7 @@
 
                 <TableRow>
                     <Button
-                        android:id="@+id/answareA"
+                        android:id="@+id/answer_a"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/sample_answer_a"
@@ -79,6 +79,7 @@
                         android:layout_margin="15dp"/>
 
                     <Button
+                        android:id="@+id/answer_b"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/sample_answer_b"
@@ -90,6 +91,7 @@
                 <TableRow>
 
                     <Button
+                        android:id="@+id/answer_c"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/sample_answer_c"
@@ -98,6 +100,7 @@
                         android:layout_margin="15dp"/>
 
                     <Button
+                        android:id="@+id/answer_d"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/sample_answer_d"

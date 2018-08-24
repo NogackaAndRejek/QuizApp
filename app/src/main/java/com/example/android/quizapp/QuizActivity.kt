@@ -15,7 +15,7 @@ class QuizActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
 
-        var answerAButton = findViewById<Button>(R.id.answareA)
+        var answerAButton = findViewById<Button>(R.id.answer_a)
         answerAButton.setOnClickListener{
             answerAButton.setBackgroundColor(R.color.buttonColor)
         }
