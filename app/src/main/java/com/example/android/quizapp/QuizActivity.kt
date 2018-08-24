@@ -14,11 +14,6 @@ class QuizActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
-
-        var answerAButton = findViewById<Button>(R.id.answer_a)
-        answerAButton.setOnClickListener{
-            answerAButton.setBackgroundColor(R.color.buttonColor)
-        }
     }
 
     override fun onResume(){

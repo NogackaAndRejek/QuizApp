@@ -15,37 +15,41 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginVertical="5dp">
 
                 <TextView
+                    android:id="@+id/question_number_text_view"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="16/20"
                     android:textSize="30sp"
                     android:gravity="center_vertical"
                     android:layout_marginHorizontal="10dp"
-                    android:layout_alignParentLeft="true"/>
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@android:color/black"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:src="@drawable/ic_baseline_alarm_24px"
-                    android:layout_toLeftOf="@id/timer"
-                    android:layout_marginHorizontal="5dp"/>
+                    android:layout_toLeftOf="@id/timer_text_view"/>
 
-                <Chronometer
-                    android:id="@+id/timer"
+                <TextView
+                    android:id="@+id/timer_text_view"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
-                    android:gravity="center_vertical"
-                    android:textSize="30sp"
                     android:layout_alignParentRight="true"
-                    android:layout_marginHorizontal="10dp"/>
+                    android:text="00s"
+                    android:textSize="30sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@android:color/black"/>
 
             </RelativeLayout>
 
             <ImageView
+                android:id="@+id/question_image_view"
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
                 android:clickable="false"
@@ -62,7 +66,7 @@
                 android:textSize="22sp"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp"
-                android:autoSizeTextType="uniform"/>
+                android:textColor="@android:color/black"/>
 
         <TableLayout
                 android:layout_width="match_parent"
@@ -76,7 +80,9 @@
                         android:text="@string/sample_answer_a"
                         android:textSize="26sp"
                         android:layout_weight="1"
-                        android:layout_margin="15dp"/>
+                        android:layout_margin="15dp"
+                        android:background="@color/colorPrimary"
+                        android:textColor="@android:color/white"/>
 
                     <Button
                         android:id="@+id/answer_b"
@@ -85,7 +91,9 @@
                         android:text="@string/sample_answer_b"
                         android:textSize="26sp"
                         android:layout_weight="1"
-                        android:layout_margin="15dp"/>
+                        android:layout_margin="15dp"
+                        android:background="@color/colorPrimary"
+                        android:textColor="@android:color/white"/>
                 </TableRow>
 
                 <TableRow>
@@ -97,7 +105,9 @@
                         android:text="@string/sample_answer_c"
                         android:textSize="26sp"
                         android:layout_weight="1"
-                        android:layout_margin="15dp"/>
+                        android:layout_margin="15dp"
+                        android:background="@color/colorPrimary"
+                        android:textColor="@android:color/white"/>
 
                     <Button
                         android:id="@+id/answer_d"
@@ -106,7 +116,9 @@
                         android:text="@string/sample_answer_d"
                         android:textSize="26sp"
                         android:layout_weight="1"
-                        android:layout_margin="15dp"/>
+                        android:layout_margin="15dp"
+                        android:background="@color/colorPrimary"
+                        android:textColor="@android:color/white"/>
 
                 </TableRow>
 
