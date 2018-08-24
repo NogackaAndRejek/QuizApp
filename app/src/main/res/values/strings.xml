@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">QuizApp</string>
-    <string name="sample_question">Which programming language is the oldest?</string>
+    <string name="sample_question">Which programming language is the oldest?Which programming language is the oldest?Which programming language is the oldest?Which programming language is the oldest?Which programming language is the oldest?</string>
     <string name="sample_answer_a">R</string>
     <string name="sample_answer_b">Python</string>
     <string name="sample_answer_c">C++</string>

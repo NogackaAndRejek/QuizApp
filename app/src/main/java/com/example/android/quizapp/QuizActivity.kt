@@ -3,9 +3,10 @@ package com.example.android.quizapp
 import android.annotation.SuppressLint
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import android.text.method.ScrollingMovementMethod
 import android.widget.Button
-import kotlinx.android.synthetic.main.activity_quiz.*
+import android.widget.TextView
+import android.widget.Toast
 
 class QuizActivity : AppCompatActivity() {
 
@@ -20,4 +21,9 @@ class QuizActivity : AppCompatActivity() {
         }
     }
 
+    override fun onResume(){
+        super.onResume()
+
+        Toast.makeText(this, "Cheking connection with Github", Toast.LENGTH_SHORT).show()
+    }
 }
