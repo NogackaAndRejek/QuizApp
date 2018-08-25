@@ -19,7 +19,6 @@
             android:background="@color/colorPrimaryDark"
             android:elevation="4dp"
             android:padding="16dp">
-
             <TableRow
                 android:weightSum="3"
                 android:layout_width="match_parent">
@@ -30,7 +29,6 @@
 
                 <TextView
                     android:id="@+id/question_number_text_view"
-
                     style="@style/TextStateBarInQuiz"
                     android:text="16/20"
                     android:textColor="@android:color/white"/>
@@ -90,7 +88,6 @@
                     android:id="@+id/answer_d"
                     android:text="@string/sample_answer_d"
                     style="@style/AnswerButton"/>
-
             </TableRow>
 
         </TableLayout>

@@ -9,8 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".QuizActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+=======
+        <activity
+            android:name=".QuizActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            >
+>>>>>>> ca1085b010d69c6fed69514df40a8f33857b8c62
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

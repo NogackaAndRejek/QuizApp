@@ -6,4 +6,6 @@
     <color name="colorSecondary">#d4e157</color>
     <color name="colorSecondaryDark">#a0af22</color>
     <color name="colorSecondaryLight">#ffff89</color>
+    <color name="colorMenuLightBlue">#C7ECFF</color>
+    <color name="whiteTextColor">#FFFFFF</color>
 </resources>
