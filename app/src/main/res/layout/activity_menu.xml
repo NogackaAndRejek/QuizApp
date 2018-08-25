@@ -1,44 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorMenuLightBlue"
     android:gravity="center"
     android:orientation="vertical">
 
+
     <EditText
+        android:id="@+id/player_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
+        android:background="@drawable/menu_button"
         android:hint="@string/name_menu_hint"
         android:inputType="text"
+        android:padding="15dp"
+        android:textColorHint="@color/whiteTextColor"
+        android:textStyle="bold"
+        android:textColor="@color/whiteTextColor"
         />
 
     <Button
+        android:id="@+id/play_menu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/menu_button"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
         android:text="@string/menu_start_button"
+        android:textAlignment="center"
+        android:textColor="@color/whiteTextColor"
         android:textSize="24sp"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:textStyle="bold"
         />
 
     <Button
+        android:id="@+id/ranking_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/menu_button"
         android:layout_marginTop="30dp"
+        android:background="@drawable/menu_button"
+        android:paddingBottom="10dp"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:textSize="24sp"
         android:text="@string/menu_ranking_button"
-        />
+        android:textAllCaps="false"
+        android:textColor="@color/whiteTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
 
 </LinearLayout>

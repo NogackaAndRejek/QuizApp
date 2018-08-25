@@ -19,7 +19,6 @@
             android:background="@color/colorPrimaryDark"
             android:elevation="4dp"
             android:padding="16dp">
-
             <TableRow
                 android:weightSum="3"
                 android:layout_width="match_parent">
@@ -50,7 +49,8 @@
             android:clickable="false"
             android:cropToPadding="false"
             android:scaleType="centerCrop"
-            android:src="@drawable/sample_question_image" />
+            android:src="@drawable/sample_question_image"
+            />
 
         <TextView
             android:id="@+id/question_text_view"

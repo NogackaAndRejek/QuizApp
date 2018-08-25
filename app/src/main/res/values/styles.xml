@@ -35,13 +35,5 @@
         <item name="android:background">@color/colorPrimaryLight</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
-<!--
-    <style name="MenuButton">
-        <item name="android:bottomRightRadius">50dp</item>
-        <item name="android:bottomLeftRadius">50dp</item>
-        <item name="android:topLeftRadius">50dp</item>
-        <item name="android:topRightRadius">50dp</item>
-    </style>
 
--->
 </resources>
