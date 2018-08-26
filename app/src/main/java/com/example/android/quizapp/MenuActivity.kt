@@ -1,8 +1,10 @@
 package com.example.android.quizapp
 
 import android.content.Intent
+import android.net.Uri
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_menu.*
 
@@ -13,7 +15,6 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
 
         //Set OnClickListener on playButton
-
         play_menu_button.setOnClickListener{
 
             //Intent which will start Quiz
@@ -34,5 +35,14 @@ class MenuActivity : AppCompatActivity() {
         ranking_button.setOnClickListener{
             Toast.makeText(applicationContext,"OnClickListener is correct",Toast.LENGTH_SHORT).show()
         }
+
+        //Click gitHub icon and move to organisation site
+        gitHub_image.setOnClickListener{
+            val gitHubSiteWWW = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/NogackaAndRejek"))
+            startActivity(gitHubSiteWWW)
+        }
+
     }
+
+
 }
