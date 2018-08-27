@@ -23,14 +23,13 @@
                 android:weightSum="3"
                 android:layout_width="match_parent">
                 <TextView
+                    android:id="@+id/score_text_view"
                     style="@style/TextStateBarInQuiz"
-                    android:text="16"
                     android:textColor="@android:color/white"/>
 
                 <TextView
                     android:id="@+id/question_number_text_view"
                     style="@style/TextStateBarInQuiz"
-                    android:text="16/20"
                     android:textColor="@android:color/white"/>
 
                 <TextView
@@ -55,7 +54,6 @@
             android:id="@+id/question_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/sample_question"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp"
             android:textAlignment="center"
@@ -68,38 +66,29 @@
             <TableRow>
                 <Button
                     android:id="@+id/answer_a"
-                    android:text="@string/sample_answer_a"
-                    style="@style/AnswerButton"/>
+                    style="@style/AnswerButton"
+                    android:onClick="clickAnswerButton"/>
 
                 <Button
                     android:id="@+id/answer_b"
-                    android:text="@string/sample_answer_b"
-                    style="@style/AnswerButton"/>
+                    style="@style/AnswerButton"
+                    android:onClick="clickAnswerButton"/>
             </TableRow>
 
             <TableRow>
 
                 <Button
                     android:id="@+id/answer_c"
-                    android:text="@string/sample_answer_c"
-                    style="@style/AnswerButton"/>
+                    style="@style/AnswerButton"
+                    android:onClick="clickAnswerButton"/>
 
                 <Button
                     android:id="@+id/answer_d"
-                    android:text="@string/sample_answer_d"
-                    style="@style/AnswerButton"/>
+                    style="@style/AnswerButton"
+                    android:onClick="clickAnswerButton"/>
             </TableRow>
 
         </TableLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="add something"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="0dp"
-            android:textAlignment="center"
-            style="@style/TextInQuiz"/>
 
     </LinearLayout>
 
