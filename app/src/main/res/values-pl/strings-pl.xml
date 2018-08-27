@@ -1,9 +1,17 @@
 <resources>
+    <!-- general -->
     <string name="app_name">QuizApp</string>
-    <string name="sample_question">Który z języków programowania jest najstarszy?</string>
 
+    <!-- activity_menu -->
     <string name="name_menu_hint">Podaj swoje imię</string>
     <string name="menu_start_button">Graj!</string>
     <string name="menu_ranking_button">Ranking</string>
+
+    <!-- sample questions -->
+    <string name="sample_question1">Który z języków programowania jest najstarszy?</string>
+    <string name="sample_question2">Który system mobilny jest najpopularniejszy?</string>
+
+    <!-- reasume -->
+    <string name="your_score">twój wynik to</string>
 
 </resources>

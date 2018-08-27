@@ -25,7 +25,7 @@ class MenuActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext,"Proszę podać imię", Toast.LENGTH_SHORT).show()
             }
             else{
-                startGameIntent.putExtra("name", player_name.text)
+                startGameIntent.putExtra("name", "${player_name.text}")
                 startActivity(startGameIntent)
             }
 

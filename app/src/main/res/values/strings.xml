@@ -1,13 +1,27 @@
 <resources>
+    <!-- general -->
     <string name="app_name">QuizApp</string>
-    <string name="sample_question">Which programming language is the oldest?</string>
-    <string name="sample_answer_a">R</string>
-    <string name="sample_answer_b">Python</string>
-    <string name="sample_answer_c">C++</string>
-    <string name="sample_answer_d">Java</string>
 
-    <string name="name_menu_hint">Podaj swoje imię</string>
-    <string name="menu_start_button">Graj!</string>
+    <!-- activity_menu -->
+    <string name="name_menu_hint">Your name</string>
+    <string name="menu_start_button">Play!</string>
     <string name="menu_ranking_button">Ranking</string>
+
+    <!-- sample questions -->
+    <string name="sample_question1">Which programming language is the oldest?</string>
+    <string name="sample_answer1_a">R</string>
+    <string name="sample_answer1_b">Python</string>
+    <string name="sample_answer1_c">C++</string>
+    <string name="sample_answer1_d">Java</string>
+
+    <string name="sample_question2">Which mobile system is the most popular?</string>
+    <string name="sample_answer2_a">Android</string>
+    <string name="sample_answer2_b">iOS</string>
+    <string name="sample_answer2_c">Windows Phone</string>
+    <string name="sample_answer2_d">BlackBerry</string>
+
+    <!-- reasume -->
+    <string name="your_score">your score is</string>
+    <string name="title_activity_score">Score</string>
 
 </resources>
