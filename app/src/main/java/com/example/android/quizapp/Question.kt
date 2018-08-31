@@ -1,5 +1,7 @@
 package com.example.android.quizapp
 
+import android.database.Cursor
+
 /**
  * Question
  * Class stores question instance in quiz
@@ -22,4 +24,5 @@ class Question(var question: String,
     fun isAnswerCorrect(playerAnswer: Char): Boolean {
         return playerAnswer == correctAnswer
     }
+
 }
