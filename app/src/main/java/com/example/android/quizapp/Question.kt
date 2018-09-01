@@ -12,8 +12,19 @@ class Question(var question: String,
                var answersB: String,
                var answersC: String,
                var answersD: String,
-               var correctAnswer: Char,
+               var correctAnswer: String,
                var questionImage: Int){
+
+    constructor() : this(
+            question = "",
+            answersA = "",
+            answersB = "",
+            answersC = "",
+            answersD = "",
+            correctAnswer = "",
+            questionImage = -1
+        )
+
 
     /**
      * isAnswerCorrect
@@ -21,7 +32,7 @@ class Question(var question: String,
      * @param playerAnswer
      * @return Boolean (True or False) is player's answer correct
      */
-    fun isAnswerCorrect(playerAnswer: Char): Boolean {
+    fun isAnswerCorrect(playerAnswer: String): Boolean {
         return playerAnswer == correctAnswer
     }
 

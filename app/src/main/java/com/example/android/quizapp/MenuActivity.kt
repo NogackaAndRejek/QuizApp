@@ -47,29 +47,7 @@ class MenuActivity : AppCompatActivity() {
         }
         //Set OnClickListener on rankingButton
         ranking_button.setOnClickListener{
-            try {
-
-                //Create Writable DataBase using DataBaseHelper
-                var dbHelper = DataBaseHelper(applicationContext)
-                var db_writable = dbHelper.writableDatabase
-
-                //Values which insert into database using instance of ContentValues
-                val values = ContentValues().apply {
-                    put("question", "Jaki jest najstarszy język programowania?")
-                    put("answer_a", "Java")
-                    put("answer_b", "Python")
-                    put("answer_c", "C++")
-                    put("answer_d", "Pascal")
-                    put("correct_answer", "Pascal")
-                    put("wasDisplayed", 0)
-                }
-                db_writable.insert(TABLE_NAME,null,values)
-            }
-            catch (e: Exception) {
-                Log.d("PROBLEM", "Cos nie poszlo $e")
-            }
-
-
+            // Here db was created
         }
 
         //Click gitHub icon and move to organisation site

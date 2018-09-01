@@ -29,8 +29,9 @@ object DB_INFO: BaseColumns{
     const val TABLE_COLUMN_ANSWER_B = "answer_b"
     const val TABLE_COLUMN_ANSWER_C = "answer_c"
     const val TABLE_COLUMN_ANSWER_D = "answer_d"
-    const val TABLE_COLUMN_DISPLAYED = "wasDisplayed"
-    private const val TABLE_COLUMN_CORRECT = "correct_answer"
+    const val TABLE_COLUMN_DISPLAYED = "was_displayed"
+    const val TABLE_COLUMN_IMAGE = "question_image"
+    const val TABLE_COLUMN_CORRECT = "correct_answer"
 
 
     /**
@@ -43,8 +44,9 @@ object DB_INFO: BaseColumns{
             "$TABLE_COLUMN_ANSWER_B TEXT,"  + //answer_b
             "$TABLE_COLUMN_ANSWER_C TEXT,"  + //answer_c
             "$TABLE_COLUMN_ANSWER_D TEXT,"  + //answer_d
-            "$TABLE_COLUMN_CORRECT TEXT"    +
-            "$TABLE_COLUMN_DISPLAYED INTEGER)"//correct_answer
+            "$TABLE_COLUMN_CORRECT TEXT"  + //correct answer
+            "$TABLE_COLUMN_IMAGE INTEGER" + //id of question's image
+            "$TABLE_COLUMN_DISPLAYED INTEGER)"//if was displayed
     /**
      * SQL query. Delete table
      */
